@@ -30,6 +30,10 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fonts/flaticon_tagus.css",
+              "node_modules/remixicon/fonts/remixicon.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/ngx-toastr/toastr.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -93,6 +97,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "39dcfa5b-b146-44e5-b553-155d5af298ee"
   }
 }
